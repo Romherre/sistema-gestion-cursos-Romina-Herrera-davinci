@@ -11,16 +11,16 @@ https://www.canva.com/design/DAG7zzyLdG0/ZGxBgv1lOf4QSnG9-03ymA/edit?utm_content
 2. Instalar dependencias: `composer install`.
 3. Configurar base de datos en `.env` (MySQL).
 4. Ejecutar migraciones y datos de prueba: `php artisan migrate --seed`.
-5. [cite_start]**Configurar archivos adjuntos:** `php artisan storage:link`[cite: 140].
+5. [cite_start]**Configurar archivos adjuntos:** `php artisan storage:link`
 
 ## ✅ Validaciones de Negocio Implementadas
-[cite_start]Para cumplir con la consigna, se han programado las siguientes reglas [cite: 127-135]:
-- [cite_start]**Docentes**: Máximo de 3 cursos activos permitidos por docente[cite: 32, 44].
-- [cite_start]**Cursos**: Validación de cupos máximos para evitar sobre-inscripción[cite: 60, 134].
-- [cite_start]**Alumnos**: Edad mínima de 16 años para el alta[cite: 29, 130].
-- [cite_start]**Archivos**: Validación de formatos PDF, DOCX, PPT, JPG y PNG para adjuntos[cite: 119].
+[cite_start]Para cumplir con la consigna, se han programado las siguientes reglas 
+- [cite_start]**Docentes**: Máximo de 3 cursos activos permitidos por docente
+- [cite_start]**Cursos**: Validación de cupos máximos para evitar sobre-inscripción
+- [cite_start]**Alumnos**: Edad mínima de 16 años para el alta
+- [cite_start]**Archivos**: Validación de formatos PDF, DOCX, PPT, JPG y PNG para adjuntos
 
 ## 👥 Perfiles de Usuario
-- [cite_start]**Administrador**: Acceso total a ABM de Alumnos, Docentes, Cursos y Archivos[cite: 91].
-- [cite_start]**Coordinador**: Gestión de Inscripciones y carga de Evaluaciones por curso[cite: 92].
+- [cite_start]**Administrador**: Acceso total a ABM de Alumnos, Docentes, Cursos y Archivos
+- [cite_start]**Coordinador**: Gestión de Inscripciones y carga de Evaluaciones por curso
 
